@@ -1,0 +1,29 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.local-video-container {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 200px;
+  z-index: 10;
+}
+
+.video-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: black;
+}
